@@ -47,6 +47,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(12, 28);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(357, 20);
             this.textBox2.TabIndex = 1;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
@@ -67,7 +68,7 @@
             this.SoftwareTxt.Name = "SoftwareTxt";
             this.SoftwareTxt.Size = new System.Drawing.Size(357, 20);
             this.SoftwareTxt.TabIndex = 3;
-            this.SoftwareTxt.Text = "10.10.168.155:63914 - Remote Desktop Connection";
+            this.SoftwareTxt.Text = "softname 2";
             this.SoftwareTxt.TextChanged += new System.EventHandler(this.SoftwareTxt_TextChanged);
             // 
             // enter1
@@ -76,7 +77,7 @@
             this.enter1.Name = "enter1";
             this.enter1.Size = new System.Drawing.Size(357, 20);
             this.enter1.TabIndex = 4;
-            this.enter1.Text = "Windows Security";
+            this.enter1.Text = "Enter software name like (*name - Notepad)";
             // 
             // button2
             // 
